@@ -1,0 +1,43 @@
+
+body{
+    background: rgb(10, 10, 10);
+    color: azure;
+}
+.color-text{
+    color: rgb(247, 36, 36);
+}
+.phone-card{
+    background: rgba(247, 0, 0, 0.068);
+}
+input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    background: rgba(247, 0, 0, 0.068);
+    color: azure;
+    border-radius: 5px;
+    letter-spacing: 1px;
+}
+button{
+    width: 100px;
+    border: 2px solid rgb(247, 36, 36);
+    color: azure;
+    background: transparent;
+    padding: 7px;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+button:hover{
+    background: linear-gradient(to right, rgba(247, 0, 0, 0.185),rgba(0, 0, 0, 0.507));
+    transform: scale(0.9);
+}
+.details-modal{
+    background: black;
+    color: azure;
+    letter-spacing: 1px;
+}
+
+.phone-image{
+    width: 250px;
+}
